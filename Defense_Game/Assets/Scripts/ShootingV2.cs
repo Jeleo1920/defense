@@ -15,6 +15,9 @@ public class ShootingV2 : MonoBehaviour
     public float timeOut = 20; // 時間を打つ間隔を指定
     private float timeElapsed; //経過時間を格納
 
+    private float time; //経過した時間
+    public float destroyTime = 10;　//弾が消えるまでの時間
+
     void Start()
     {
 
@@ -23,6 +26,7 @@ public class ShootingV2 : MonoBehaviour
     void Update()
     {
         timeElapsed += Time.deltaTime;
+        time += Time.deltaTime;
 
         if (timeElapsed >= timeOut)
         {
@@ -42,8 +46,14 @@ public class ShootingV2 : MonoBehaviour
 
             timeElapsed = 0.0f;
 
+            Debug.Log("撃ちました。");
+
         }
 
+        if(time >= destroyTime)
+        {
+            
+        }
 
     }
 
