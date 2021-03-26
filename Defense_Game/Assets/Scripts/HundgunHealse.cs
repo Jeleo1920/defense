@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PHealse : MonoBehaviour
+public class HundgunHealse : MonoBehaviour
 {
     public GameObject effectPrefab;
     // ★★追加
@@ -36,8 +36,6 @@ public class PHealse : MonoBehaviour
                 Destroy(effect2, 2.0f);
 
                 Destroy(this.gameObject);
-
-                SceneManager.LoadScene("Gameover");
             }
         }
     }
