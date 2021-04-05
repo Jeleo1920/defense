@@ -18,7 +18,7 @@ public class HundgunHealse : MonoBehaviour
             // ★★追加
             // オブジェクトのHPを１ずつ減少させる。
             objectHP -= 1;
-
+            Debug.Log("ダメージ");
             // ★★追加
             // もしもHPが0よりも大きい場合には（条件）
             if (objectHP > 0)
