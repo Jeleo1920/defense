@@ -159,6 +159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectPrefab: {fileID: 100006, guid: bcf46e46336114145b09deb1db11d480, type: 3}
   effectPrefab2: {fileID: 100004, guid: b49e37c2e747d4ed4bd2369d30fa0d68, type: 3}
+  enemyPawn: {fileID: 7414505837513359381, guid: 00af2a29790705e47b7187ce02340837,
+    type: 3}
   objectHP: 5
 --- !u!65 &2410087016355436958
 BoxCollider:
