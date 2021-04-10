@@ -11,13 +11,14 @@ public class Navmesh : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player = gameObject.GetComponent<NavMeshAgent>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(target !=null)
+        player = gameObject.GetComponent<NavMeshAgent>();
+        if (target !=null)
         {
             player.destination = target.transform.position;
         }

@@ -9,7 +9,6 @@ public class HundgunHealse : MonoBehaviour
     // ★★追加
     // 2種類目のエフェクトを入れるための箱
     public GameObject effectPrefab2;
-    public GameObject enemyPawn;
     public int objectHP;
 
     private void OnTriggerEnter(Collider other)
@@ -19,7 +18,7 @@ public class HundgunHealse : MonoBehaviour
             // ★★追加
             // オブジェクトのHPを１ずつ減少させる。
             objectHP -= 1;
-            Debug.Log("ダメージ");
+
             // ★★追加
             // もしもHPが0よりも大きい場合には（条件）
             if (objectHP > 0)
@@ -34,9 +33,6 @@ public class HundgunHealse : MonoBehaviour
 
                 // もう１種類のエフェクを発生させる。
                 GameObject effect2 = Instantiate(effectPrefab2, transform.position, Quaternion.identity);
-
-                GameObject pawn = Instantiate(enemyPawn, transform.position, Quaternion.identity);
-
                 Destroy(effect2, 2.0f);
 
                 Destroy(this.gameObject);
