@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 720947437772263055}
   - component: {fileID: 720947437772263054}
   - component: {fileID: 3550333728716320001}
-  - component: {fileID: -5498167931099839042}
   - component: {fileID: 2367509603755262448}
   - component: {fileID: 5740984327751343691}
   m_Layer: 0
@@ -168,19 +167,6 @@ MonoBehaviour:
   effectPrefab: {fileID: 100006, guid: bcf46e46336114145b09deb1db11d480, type: 3}
   effectPrefab2: {fileID: 100006, guid: bcf46e46336114145b09deb1db11d480, type: 3}
   objectHP: 10
---- !u!114 &-5498167931099839042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 720947437772263041}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2dd19c0af2bf49468af16f15d82eeae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoveSpeed: 2
 --- !u!143 &2367509603755262448
 CharacterController:
   m_ObjectHideFlags: 0
