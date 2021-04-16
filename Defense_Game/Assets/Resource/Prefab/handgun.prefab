@@ -158,7 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   effectPrefab: {fileID: 100006, guid: bcf46e46336114145b09deb1db11d480, type: 3}
   effectPrefab2: {fileID: 100004, guid: b49e37c2e747d4ed4bd2369d30fa0d68, type: 3}
-  enemyPawn: {fileID: 7414505837513359381, guid: 00af2a29790705e47b7187ce02340837,
+  enemyPawn: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
     type: 3}
   objectHP: 5
 --- !u!1 &2358166418869236059
