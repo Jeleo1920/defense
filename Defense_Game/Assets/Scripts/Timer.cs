@@ -18,7 +18,7 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameObject.Find("base"))
+        if(GameObject.Find("Castle 2"))
         {
             time += Time.deltaTime;
             TimeText.GetComponent<Text>().text = time.ToString("F2");
