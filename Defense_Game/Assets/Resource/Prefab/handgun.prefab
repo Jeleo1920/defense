@@ -128,8 +128,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 1552025784840388127, guid: 0c9f40b78ba73c64ea56601fbcc2cba6, type: 3}
   muzzle: {fileID: 2358166418869236058}
-  speed: 10000
-  timeOut: 5
+  speed: 5000
+  timeOut: 2
   destroyTime: 10
 --- !u!114 &2358166418295362514
 MonoBehaviour:
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e24bd3f9a5ede49bf68ce02ede8831, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Range: 30
+  Range: 100
 --- !u!114 &4646023100213448218
 MonoBehaviour:
   m_ObjectHideFlags: 0
