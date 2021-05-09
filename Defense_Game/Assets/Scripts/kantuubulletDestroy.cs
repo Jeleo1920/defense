@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class bulletDestory : MonoBehaviour
+public class kantuubulletDestroy : MonoBehaviour
 {
 
     public float timeOut;
     private float timeElapsed;
+
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class bulletDestory : MonoBehaviour
     {
         timeElapsed += Time.deltaTime;
 
-        if(timeElapsed >= timeOut)
+        if (timeElapsed >= timeOut)
         {
             Destroy(gameObject);
             Debug.Log("aaaaaa");
@@ -30,13 +31,5 @@ public class bulletDestory : MonoBehaviour
         //    Destroy(gameObject);
         //    Debug.Log("aaaaaa");
         //}
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Enemy"))
-        {
-            Destroy(this.gameObject);
-        }
     }
 }
