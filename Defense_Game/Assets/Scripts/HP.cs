@@ -1,31 +1,60 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class HP : MonoBehaviour
+public class HP: MonoBehaviour
 {
+    public GameObject effectPrefab;
+    // ★★追加
+    // 2種類目のエフェクトを入れるための箱
+    public GameObject effectPrefab2;
+    public int hp = 5;//hpを5にする。SliderのMaxValueとValueはここの値に合わせます
+    private Slider _slider;//Sliderの値を代入する_sliderを宣言
+    public GameObject slider;//体力ゲージに指定するSlider
 
-    //[SerializeField]を書くことによりpublicでなくてもInspectorから値を編集できます
-    [SerializeField]
-    private float hp = 5;  //体力
-
-    //貫通する場合はTrigger系(どちらかにColliderのis triggerをチェック) 衝突しあうものはCollision系(ColliderとRigidbodyが必要)
-    private void OnTriggerEnter2D(Collider2D collision)
+    // Use this for initialization
+    void Start()
     {
+        _slider = slider.GetComponent<Slider>();//sliderを取得する
+    }
 
-        //タグがEnemyBulletのオブジェクトが当たった時に{}内の処理が行われる
-        if (collision.gameObject.tag == "EnemyBullet")
-        {
-            Debug.Log("hit Player");  //コンソールにhit Playerが表示
-            //gameObject.GetComponent<EnemyBulletManager>()でEnemyBulletManagerスクリプトを参照し
-            //.powerEnemy; でEnemyBulletManagerのpowerEnemyの値をゲット
-            hp -= collision.gameObject.GetComponent<EnemyBulletManager>().powerEnemy;
-        }
+    // Update is called once per frame
+    void Update()
+    {
+        _slider.value = hp;//スライダーとHPの紐づけ
+    }
 
-        //体力が0以下になった時{}内の処理が行われる
-        if (hp <= 0)
+ 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
         {
-            Destroy(gameObject);  //ゲームオブジェクトが破壊される
+            // ★★追加
+            // オブジェクトのHPを１ずつ減少させる。
+            hp -= 1;
+
+            // ★★追加
+            // もしもHPが0よりも大きい場合には（条件）
+            if (hp > 0)
+            {
+                //Destroy(other.gameObject);
+                GameObject effect = Instantiate(effectPrefab, transform.position, Quaternion.identity);
+                Destroy(effect, 2.0f);
+            }
+            else
+            { // ★★追加  そうでない場合（HPが0以下になった場合）には（条件）
+                //Destroy(other.gameObject);
+
+                // もう１種類のエフェクを発生させる。
+                GameObject effect2 = Instantiate(effectPrefab2, transform.position, Quaternion.identity);
+                Destroy(effect2, 2.0f);
+
+                Destroy(this.gameObject);
+
+                SceneManager.LoadScene("Gameover");
+            }
         }
     }
 }
