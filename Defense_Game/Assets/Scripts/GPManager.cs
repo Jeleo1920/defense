@@ -14,13 +14,13 @@ public class GPManager : MonoBehaviour
     {
         gpPoint = 0;
         gpLabel = GetComponent<Text>();
-        gpLabel.text = "資材:" + gpPoint.ToString("D10"); // 0埋めの表示の仕方
+        gpLabel.text = "資材:" + gpPoint.ToString("D4"); // 0埋めの表示の仕方
     }
 
     public void AddGP(int amount)
     {
         gpPoint += amount;
-        gpLabel.text = "資材:" + gpPoint.ToString("D10");
+        gpLabel.text = "資材:" + gpPoint.ToString("D4");
     }
 
     void Update()
@@ -30,7 +30,7 @@ public class GPManager : MonoBehaviour
         {
             gpPoint += 1;
             Debug.Log("ポイント増加");
-            gpLabel.text = "資材:" + gpPoint.ToString("D10");
+            gpLabel.text = "資材:" + gpPoint.ToString("D4");
             timeElapsed = 0.0f;
         }
     }
@@ -38,7 +38,7 @@ public class GPManager : MonoBehaviour
     public void ReduceGP(int amount)
     {
         gpPoint -= amount;
-        gpLabel.text = "資材:" + gpPoint.ToString("D10");
+        gpLabel.text = "資材:" + gpPoint.ToString("D4");
     }
 
 }
