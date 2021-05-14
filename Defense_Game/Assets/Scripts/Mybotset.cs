@@ -12,6 +12,9 @@ public class Mybotset : MonoBehaviour
     public int price;
     public GameObject myBotPrefab;
     private GameObject myBotBase;
+    public int ObjectNum;//出現させるオブジェクトの最高値を格納
+    int ObjectWk;//現在のオブジェクト数を格納
+    GameObject[] GO; // クリックしておいたゲームオブジェクトを格納
 
     // Start is called before the first frame update
     void Start()
@@ -26,16 +29,22 @@ public class Mybotset : MonoBehaviour
     {
         getGPpoint = gpm.gpPoint;
         setCount = getGPpoint / price;
+        GO = GameObject.FindGameObjectsWithTag("Player");
+        // 変数(GO)の個数を変数ObjectWkに格納
+        ObjectWk = GO.Length;
     }
 
     public void OnMyBotButtonClicked()
     {
-        // （復習）この条件の意味は？
-        if (setCount > 0)
+        if (ObjectWk < ObjectNum)
         {
-            Instantiate(myBotPrefab, myBotBase.transform.position+new Vector3(0,1,0), myBotBase.transform.rotation);
-            gpm.ReduceGP(price);
-            Debug.Log("生成しました");
+            // （復習）この条件の意味は？
+            if (setCount > 0)
+            {
+                Instantiate(myBotPrefab, myBotBase.transform.position + new Vector3(0, 1, 0), myBotBase.transform.rotation);
+                gpm.ReduceGP(price);
+                Debug.Log("生成しました");
+            }
         }
     }
 }
