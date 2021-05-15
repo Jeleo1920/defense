@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class EHealse : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class EHealse : MonoBehaviour
     // 2種類目のエフェクトを入れるための箱
     public GameObject effectPrefab2;
     public int objectHP;
+
+   
+   
 
     private void OnTriggerEnter(Collider other)
     {

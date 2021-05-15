@@ -45,6 +45,6 @@ public class Mybotset : MonoBehaviour
                 gpm.ReduceGP(price);
                 Debug.Log("生成しました");
             }
-        }
+         }
     }
 }

@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a126a0e77645da14787ddb6cd7ddd065, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 376234712750971037, guid: 9e60f2c4ed105f741a6bd256dca6d809, type: 3}
+  bullet: {fileID: 6612347622418091847, guid: 9cd23937cd0ae304a99390a3b7a02ac8, type: 3}
   muzzle: {fileID: 2048553389456308340}
   speed: 5000
   timeOut: 10
