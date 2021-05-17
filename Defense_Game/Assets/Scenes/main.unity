@@ -316,7 +316,7 @@ MonoBehaviour:
   price: 5
   myBotPrefab: {fileID: 2048553389016718077, guid: 325286e89b4ae69408bdf672332b3860,
     type: 3}
-  ObjectNum: 15
+  ObjectNum: 21
 --- !u!114 &46242508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -746,7 +746,7 @@ MonoBehaviour:
   price: 2
   myBotPrefab: {fileID: 2358166418295362515, guid: f858db805a3ceec478c7dcea8ae99238,
     type: 3}
-  ObjectNum: 15
+  ObjectNum: 21
 --- !u!114 &252262794
 MonoBehaviour:
   m_ObjectHideFlags: 0
