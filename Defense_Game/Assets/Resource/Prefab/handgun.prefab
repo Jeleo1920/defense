@@ -175,7 +175,6 @@ GameObject:
   - component: {fileID: 2358166418869236062}
   - component: {fileID: 2358166418869236063}
   - component: {fileID: 2358166418869236056}
-  - component: {fileID: 2358166418869236057}
   m_Layer: 0
   m_Name: muzzle
   m_TagString: Untagged
@@ -295,16 +294,3 @@ NavMeshAgent:
   m_BaseOffset: 0.49999994
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &2358166418869236057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2358166418869236059}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: deabd848c809cd4488e7a8142b1e2979, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeOut: 0
