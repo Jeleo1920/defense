@@ -12,9 +12,6 @@ public class EHealse : MonoBehaviour
     public GameObject effectPrefab2;
     public int objectHP;
 
-   
-   
-
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
