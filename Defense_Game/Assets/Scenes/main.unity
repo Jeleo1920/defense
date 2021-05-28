@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 15
   interval: 5
@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 46242508}
   - component: {fileID: 46242507}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: riflebutton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 30
   interval: 5
@@ -484,7 +484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 50
   interval: 5
@@ -531,7 +531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 15
   interval: 5
@@ -578,7 +578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 3
   interval: 5
@@ -625,7 +625,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 30
   interval: 5
@@ -672,7 +672,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 8502290871174878731, guid: c5624f69ed5205f43ab3328ae7abc1d8,
+  botPrefab: {fileID: 7658094625073671170, guid: dfcabe8d0f262fd479b2ca54c97a9308,
     type: 3}
   startTime: 70
   interval: 70
@@ -704,7 +704,7 @@ GameObject:
   - component: {fileID: 252262794}
   - component: {fileID: 252262793}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Hundgunbutton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -867,7 +867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 15
   interval: 5
@@ -914,7 +914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 90
   interval: 5
@@ -1039,7 +1039,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 15
   interval: 5
@@ -1086,7 +1086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 3
   interval: 5
@@ -1236,7 +1236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 30
   interval: 5
@@ -1339,6 +1339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree9_2 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalPosition.x
       value: -62.694263
@@ -1369,7 +1373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1414,7 +1418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 15
   interval: 5
@@ -1461,7 +1465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 15
   interval: 5
@@ -1508,7 +1512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 90
   interval: 5
@@ -1555,7 +1559,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 90
   interval: 5
@@ -1602,7 +1606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 30
   interval: 5
@@ -1649,7 +1653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 3
   interval: 5
@@ -1696,7 +1700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 50
   interval: 5
@@ -1747,7 +1751,7 @@ Transform:
   - {fileID: 6533350430125871071}
   - {fileID: 1070467594}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &728159067
 GameObject:
@@ -1762,7 +1766,7 @@ GameObject:
   - component: {fileID: 728159069}
   - component: {fileID: 728159068}
   - component: {fileID: 728159072}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: MyBotBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1777,7 +1781,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728159067}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1884,7 +1888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 15
   interval: 5
@@ -1912,6 +1916,10 @@ PrefabInstance:
     - target: {fileID: 114418, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_Name
       value: Tree9_4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1970,6 +1978,7 @@ GameObject:
   - component: {fileID: 814960108}
   - component: {fileID: 814960107}
   - component: {fileID: 814960106}
+  - component: {fileID: 814960109}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2042,6 +2051,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 58.341003, y: 0, z: 0}
+--- !u!114 &814960109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814960105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a6b3f1219ea5c4ea6cd2853bdfe17b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointerOBJ: {fileID: 728159067}
+  defenderOBJ: {fileID: 2358166418295362515, guid: f858db805a3ceec478c7dcea8ae99238,
+    type: 3}
+  ObjectNum: 21
+  price: 3
 --- !u!1 &822262145
 GameObject:
   m_ObjectHideFlags: 0
@@ -2071,7 +2097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 20
   interval: 5
@@ -2099,6 +2125,10 @@ PrefabInstance:
     - target: {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_Name
       value: Tree9_2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2330,7 +2360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 15
   interval: 5
@@ -2455,7 +2485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 30
   interval: 5
@@ -2489,6 +2519,10 @@ PrefabInstance:
     - target: {fileID: 114418, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_Name
       value: Tree9_3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2565,7 +2599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 50
   interval: 5
@@ -2684,7 +2718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 3
   interval: 5
@@ -2712,6 +2746,10 @@ PrefabInstance:
     - target: {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_Name
       value: Tree9_2 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2743,7 +2781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2789,7 +2827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 3
   interval: 5
@@ -2852,7 +2890,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 15
   interval: 5
@@ -3051,7 +3089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 3
   interval: 5
@@ -3098,7 +3136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 90
   interval: 5
@@ -3168,6 +3206,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree9_3
       objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 8b2d47fdc2e25ac4f9721480a68bbefa, type: 3}
       propertyPath: m_LocalPosition.x
       value: -38.86627
@@ -3225,6 +3267,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree9_2
       objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: be878d9ea17907f4a8068678a5ce7908, type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.087975
@@ -3281,6 +3327,10 @@ PrefabInstance:
     - target: {fileID: 114418, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_Name
       value: Tree9_5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 9b8fc966f95ea9c4194dc091fc40b478, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3441,7 +3491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 90
   interval: 5
@@ -3582,7 +3632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 15
   interval: 5
@@ -3629,7 +3679,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 90
   interval: 5
@@ -3676,7 +3726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 30
   interval: 5
@@ -3723,7 +3773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 3
   interval: 5
@@ -3854,7 +3904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 90
   interval: 5
@@ -3967,7 +4017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 8502290871174878731, guid: c5624f69ed5205f43ab3328ae7abc1d8,
+  botPrefab: {fileID: 7658094625073671170, guid: dfcabe8d0f262fd479b2ca54c97a9308,
     type: 3}
   startTime: 70
   interval: 70
@@ -4014,7 +4064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 50
   interval: 5
@@ -4061,7 +4111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 30
   interval: 5
@@ -4108,7 +4158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 50
   interval: 5
@@ -4136,6 +4186,10 @@ PrefabInstance:
     - target: {fileID: 114418, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_Name
       value: Tree9_4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114418, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 481256, guid: 956bd2acf7aae244dac8fc20cf57858d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4212,7 +4266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 90
   interval: 5
@@ -4259,7 +4313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 3
   interval: 5
@@ -4306,7 +4360,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 8502290871174878731, guid: c5624f69ed5205f43ab3328ae7abc1d8,
+  botPrefab: {fileID: 7658094625073671170, guid: dfcabe8d0f262fd479b2ca54c97a9308,
     type: 3}
   startTime: 90
   interval: 90
@@ -4575,7 +4629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 90
   interval: 5
@@ -4622,7 +4676,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 90
   interval: 5
@@ -4669,7 +4723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 538045b3983646f4da657242c9e5dbb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  botPrefab: {fileID: 5142927220271882066, guid: 45223a1b2aa2fea439d3948aa144c93f,
+  botPrefab: {fileID: 194840572422798778, guid: 4eaec985643c1304396789eca838f88b,
     type: 3}
   startTime: 30
   interval: 5
